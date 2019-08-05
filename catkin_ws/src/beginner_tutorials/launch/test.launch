@@ -1,0 +1,7 @@
+<launch>
+
+<node pkg="beginner_tutorials" name="Pub" type="talker"
+launch-prefix="xterm -e" out="screen"/>
+<node pkg="beginner_tutorials" name="Sub" type="listener"
+output="screen"/>
+</launch>
